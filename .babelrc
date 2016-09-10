@@ -1,0 +1,25 @@
+{
+  "env": {
+    "docs-browser-development": {
+      "presets": ["es2015", "react", "stage-1"],
+    },
+    "release": {
+      "presets": ["es2015", "react", "stage-1"],
+      "plugins": [
+        ["transform-react-remove-prop-types", {"mode": "wrap"}],
+        "transform-dev-warning"
+      ]
+    },
+    "docs-browser-production": {
+      "presets": ["es2015", "react", "stage-1"],
+      "plugins": [
+        "transform-react-remove-prop-types",
+        "transform-react-constant-elements",
+        "transform-react-inline-elements"
+      ]
+    },
+    "development": {
+      "presets": ["react-native"]
+    }
+  }
+}
