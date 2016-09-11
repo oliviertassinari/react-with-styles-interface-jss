@@ -9,7 +9,12 @@ jss.setup(preset());
 
 export default {
   create(styleHash) {
-    return jss.createStyleSheet(styleHash).attach().classes;
+    const {
+      options,
+      ...styleHashFiltered,
+    } = styleHash;
+
+    return jss.createStyleSheet(styleHashFiltered, options).attach().classes;
   },
 
   // Styles is an array of properties returned by `create()`, a POJO, or an

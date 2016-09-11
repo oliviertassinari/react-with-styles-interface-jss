@@ -25,11 +25,15 @@ export default withStyles(({media}) => ({
   root: {
     padding: '32px 16px',
     fontSize: 16,
-    [media.medium]: {
+  },
+  [media.medium]: {
+    root: {
       padding: '32px 64px',
       fontSize: 18,
     },
-    [media.large]: {
+  },
+  [media.large]: {
+    root: {
       padding: '32px 112px',
       maxWidth: 1024,
       margin: '0 auto',

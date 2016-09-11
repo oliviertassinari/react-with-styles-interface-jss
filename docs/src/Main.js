@@ -1,6 +1,7 @@
 /* eslint-disable flowtype/require-valid-file-annotation */
 
 import React from 'react';
+import Html from 'components/Html';
 import PageHead from 'components/PageHead';
 import PageBody from 'components/PageBody';
 import PageFooter from 'components/PageFooter';
@@ -12,6 +13,7 @@ const REPOSITORY_URL = 'https://github.com/oliviertassinari/react-with-styles-in
 const Main = () => (
   <ThemeProvider>
     <div>
+      <Html />
       <PageHead
         name="react-with-styles-interface-jss"
         description="Interface to use react-with-styles with JSS."
