@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
-    "jss-preset-default": "^0.3.1"
+    "jss-preset-default": "^0.4.0"
   },
   "peerDependencies": {},
   "license": "MIT",
@@ -47,10 +47,10 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-1": "^6.13.0",
     "eslint": "^3.5.0",
-    "eslint-plugin-flowtype": "^2.16.1",
-    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-flowtype": "^2.17.1",
+    "eslint-plugin-import": "^1.15.0",
     "eslint-plugin-mocha": "^4.5.1",
-    "eslint-plugin-react": "^6.2.0",
+    "eslint-plugin-react": "^6.2.1",
     "flow-bin": "^0.30.0",
     "html-webpack-plugin": "^2.22.0",
     "ip": "^1.1.3",

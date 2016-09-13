@@ -58,9 +58,7 @@ export default withStyles(({media}) => ({
     marginTop: 32,
     borderTop: 'solid 1px #e4e6e7',
     fontSize: 14,
-  },
-  [media.large]: {
-    root: {
+    [media.large]: {
       fontSize: 16,
     },
   },

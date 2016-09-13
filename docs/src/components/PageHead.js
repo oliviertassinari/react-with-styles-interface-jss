@@ -40,17 +40,35 @@ export default withStyles(({media, pseudo}) => ({
     backgroundColor: '#159957',
     backgroundImage: 'linear-gradient(120deg, #155799, #159957)',
     padding: '32px 16px',
+    [media.medium]: {
+      padding: '48px 64px',
+    },
+    [media.large]: {
+      padding: '80px 96px',
+    },
   },
   name: {
     marginTop: 0,
     marginBottom: 1,
     fontSize: 28,
+    [media.medium]: {
+      fontSize: 36,
+    },
+    [media.large]: {
+      fontSize: 52,
+    },
   },
   description: {
     marginBottom: 32,
     fontWeight: 'normal',
     opacity: 0.7,
     fontSize: 16,
+    [media.medium]: {
+      fontSize: 18,
+    },
+    [media.large]: {
+      fontSize: 20,
+    },
   },
   button: {
     boxSizing: 'border-box',
@@ -72,34 +90,12 @@ export default withStyles(({media, pseudo}) => ({
       backgroundColor: 'rgba(255, 255, 255, 0.2)',
       borderColor: 'rgba(255, 255, 255, 0.3)',
     },
-  },
-  [media.medium]: {
-    root: {
-      padding: '48px 64px',
-    },
-    name: {
-      fontSize: 36,
-    },
-    description: {
-      fontSize: 18,
-    },
-    button: {
+    [media.medium]: {
       display: 'inline-block',
       width: 'auto',
       padding: '10px 14px',
     },
-  },
-  [media.large]: {
-    root: {
-      padding: '80px 96px',
-    },
-    name: {
-      fontSize: 52,
-    },
-    description: {
-      fontSize: 20,
-    },
-    button: {
+    [media.large]: {
       display: 'inline-block',
       width: 'auto',
       padding: '12px 16px',
