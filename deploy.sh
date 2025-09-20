@@ -6,11 +6,6 @@ npm run docs:browser:production
 
 # go to the out directory and create a *new* Git repo
 cd docs/dist
-git init
-
-# inside this git repo we'll pretend to be a new user
-git config user.name "Travis CI"
-git config user.email "olivier.tassinari@gmail.com"
 
 # The first and only commit to this new Git repo contains all the
 # files present with the commit message "Deploy to GitHub Pages".

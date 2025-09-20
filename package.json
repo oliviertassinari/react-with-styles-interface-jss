@@ -23,7 +23,10 @@
     "react-with-styles",
     "jss"
   ],
-  "author": "Olivier Tassinari <olivier.tassinari@gmail.com> (https://github.com/oliviertassinari)",
+  "author": {
+    "name": "Olivier Tassinari",
+    "url": "https://github.com/oliviertassinari"
+  },
   "bugs": {
     "url": "https://github.com/oliviertassinari/oliviertassinari/react-with-styles-interface-jss/issues"
   },
